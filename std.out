@@ -457,3 +457,4 @@ WdgMtb: ACCESS add_draft_popup@extrev_feature_popup@EXTRCUT is AVAILABLE (CB)
 WdgMtb: ACCESS cap_ends_popup@extrev_feature_popup@EXTRCUT is invisible (UI)
 WdgMtb: ACCESS depth1_om@EXTRCUT is AVAILABLE (CB)
 WdgMtb: ACCESS depth2_set_popup@extrev_feature_popup@EXTRCUT is AVAILABLE (CB)
+gdi32_comm_shutdown wait for polling thread timed out.
