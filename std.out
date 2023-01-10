@@ -99,3 +99,4 @@ WdgMtb: ACCESS DefineRmbBtn@extrev_feature_popup@REVOLUTION is invisible (UI)
 WdgMtb: ACCESS SketchRmbBtn@extrev_feature_popup@REVOLUTION is AVAILABLE (CB)
 WdgMtb: ACCESS InternalCL@REVOLUTION is AVAILABLE (CB)
 WdgMtb: ACCESS cap_ends_popup@extrev_feature_popup@REVOLUTION is invisible (UI)
+gdi32_comm_shutdown wait for polling thread timed out.
