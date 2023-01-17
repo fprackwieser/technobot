@@ -14,13 +14,13 @@
 #define LFSensor_3 A3
 #define LFSensor_4 A4  //OLD D10
 
-#define FAST_SPEED 200
+#define FAST_SPEED 150
 #define MID_SPEED 80
 #define SLOW_SPEED  100     //back speed
 
 
 /*motor control*/
-void go_Advance(void)  //Forward
+void go_Advance1(void)  //Forward
 {
   digitalWrite(RightMotorDirPin1, LOW);
   digitalWrite(RightMotorDirPin2,HIGH);
@@ -29,7 +29,7 @@ void go_Advance(void)  //Forward
   analogWrite(speedPinL,1);
   analogWrite(speedPinR,1);
 }
-void go_Left(int t=0)  //Turn left
+void go_Left1(int t=0)  //Turn left
 {
   digitalWrite(RightMotorDirPin1,LOW );
   digitalWrite(RightMotorDirPin2,HIGH);
@@ -39,7 +39,7 @@ void go_Left(int t=0)  //Turn left
   analogWrite(speedPinR,200);
   delay(t);
 }
-void go_Right(int t=0)  //Turn right
+void go_Right1(int t=0)  //Turn right
 {
   digitalWrite(RightMotorDirPin1,HIGH);
   digitalWrite(RightMotorDirPin2,LOW);
@@ -49,7 +49,7 @@ void go_Right(int t=0)  //Turn right
   analogWrite(speedPinR,0);
   delay(t);
 }
-void go_Back(int t=0)  //Reverse
+void go_Back1(int t=0)  //Reverse
 {
   digitalWrite(RightMotorDirPin1,HIGH);
   digitalWrite(RightMotorDirPin2,LOW);
@@ -59,7 +59,7 @@ void go_Back(int t=0)  //Reverse
   analogWrite(speedPinR,200);
   delay(t);
 }
-void stop_Stop()    //Stop
+void stop_Stop1()    //Stop
 {
   digitalWrite(RightMotorDirPin1, LOW);
   digitalWrite(RightMotorDirPin2,LOW);
@@ -83,7 +83,7 @@ void setup()
   pinMode(LeftMotorDirPin1, OUTPUT);
   pinMode(LeftMotorDirPin2, OUTPUT); 
   pinMode(speedPinR, OUTPUT); 
-  stop_Stop();//stop move  
+  stop_Stop1();//stop move  
 
   Serial.begin(9600);   // initialize serial for debugging
 
@@ -120,28 +120,28 @@ String read_sensor_values()
 void auto_tracking(){
  String sensorval= read_sensor_values();
   Serial.println(sensorval);
-  if (   sensorval=="00001" || sensorval=="00011" || sensorval=="00010"  )
+  if (   sensorval=="11110" || sensorval=="11100" || sensorval=="11101"  )
   { 
     //The black line is in the left of the car, need  left turn 
-    go_Left();  //Turn left
-    set_Motorspeed(MID_SPEED,MID_SPEED);
+    go_Left1();  //Turn left
+    set_Motorspeed1(MID_SPEED,MID_SPEED);
   }
 
-  if (    sensorval=="10000" || sensorval=="01000"||sensorval=="11000"){ //The black line is  on the right of the car, need  right turn 
-    go_Right();  //Turn right
-    set_Motorspeed(MID_SPEED,MID_SPEED);
+  if (    sensorval=="01111" || sensorval=="10111"||sensorval=="00111"){ //The black line is  on the right of the car, need  right turn 
+    go_Right1();  //Turn right
+    set_Motorspeed1(MID_SPEED,MID_SPEED);
   }
  
-  if (sensorval=="11111"|| sensorval=="10100" || sensorval=="01100" || sensorval=="11100"  || sensorval=="10010" || sensorval=="11010"|| sensorval=="00101" || sensorval=="00110" || sensorval=="00111" || sensorval=="01101" || sensorval=="01111"   || sensorval=="01011"  || sensorval=="01001"){
-    go_Back();   //The car front touch white line, need to reverse
-    set_Motorspeed(FAST_SPEED,FAST_SPEED);
+  if (sensorval=="00000"|| sensorval=="01011" || sensorval=="10011" || sensorval=="00011"  || sensorval=="01101" || sensorval=="00101"|| sensorval=="11010" || sensorval=="11001" || sensorval=="11000" || sensorval=="10010" || sensorval=="10000"   || sensorval=="10100"  || sensorval=="10110"){
+    go_Back1();   //The car front touch white line, need to reverse
+    set_Motorspeed1(FAST_SPEED,FAST_SPEED);
     delay(100);
   }
 
-  if  (sensorval=="00000")
+  if  (sensorval=="11111")
   {
-    go_Advance();  //Forward
-    set_Motorspeed( FAST_SPEED,FAST_SPEED);
+    go_Advance1();  //Forward
+    set_Motorspeed1( FAST_SPEED,FAST_SPEED);
   }
     
 }
