@@ -135,9 +135,9 @@ void auto_tracking(){
   if (sensorval=="00000"|| sensorval=="01011" || sensorval=="10011" || sensorval=="00011"  || sensorval=="01101" || sensorval=="00101"|| sensorval=="11010" || sensorval=="11001" || sensorval=="11000" || sensorval=="10010" || sensorval=="10000"   || sensorval=="10100"  || sensorval=="10110"){
     go_Back1();   //The car front touch white line, need to reverse
     set_Motorspeed1(FAST_SPEED,FAST_SPEED);
+    delay(100);
     go_Right1();  //Turn right
     set_Motorspeed1(MID_SPEED,MID_SPEED);
-    delay(100);
   }
 
   if  (sensorval=="11111")

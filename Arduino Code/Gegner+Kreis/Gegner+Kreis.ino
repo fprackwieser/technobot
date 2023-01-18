@@ -43,8 +43,8 @@ const int sidedistancelimit = 30;  //minimum distance in cm to obstacles at both
 int distance;
 int numcycles = 0;
 
-const int turntime = 100;  //Time the robot spends turning (miliseconds)
-const int backtime = 100;  //Time the robot spends turning (miliseconds)
+const int turntime = 50;  //Time the robot spends turning (miliseconds)
+const int backtime = 50;  //Time the robot spends turning (miliseconds)
 
 int thereis;
 int n=0;
@@ -184,14 +184,14 @@ String watchsurrounding() {
     obstacle_status = obstacle_status | B100;
   }
   head.write(120);
-  delay(100);
+  delay(10);
   ldiagonalscanval = watch();
   if (ldiagonalscanval < distancelimit) {
 
     obstacle_status = obstacle_status | B1000;
   }
   head.write(170);  //Didn't use 180 degrees because my servo is not able to take this angle
-  delay(100);
+  delay(10);
   leftscanval = watch();
   if (leftscanval < sidedistancelimit) {
 
@@ -199,28 +199,28 @@ String watchsurrounding() {
   }
 
   head.write(90);  //use 90 degrees if you are moving your servo through the whole 180 degrees
-  delay(100);
+  delay(10);
   centerscanval = watch();
   if (centerscanval < distancelimit) {
 
     obstacle_status = obstacle_status | B100;
   }
   head.write(40);
-  delay(100);
+  delay(10);
   rdiagonalscanval = watch();
   if (rdiagonalscanval < distancelimit) {
 
     obstacle_status = obstacle_status | B10;
   }
   head.write(0);
-  delay(100);
+  delay(10);
   rightscanval = watch();
   if (rightscanval < sidedistancelimit) {
 
     obstacle_status = obstacle_status | 1;
   }
   head.write(90);  //Finish looking around (look forward again)
-  delay(100);
+  delay(10);
   String obstacle_str = String(obstacle_status, BIN);
   obstacle_str = obstacle_str.substring(1, 6);
 
@@ -239,6 +239,7 @@ void auto_avoidance() {
       Serial.println("SLIT left");
       set_Motorspeed(SPEED, FAST_SPEED);
       go_Advance();
+      auto_tracking();
 
       delay(turntime);
 
@@ -246,6 +247,7 @@ void auto_avoidance() {
       Serial.println("SLIT right");
       set_Motorspeed(FAST_SPEED, SPEED);
       go_Advance();
+      auto_tracking();
 
       delay(turntime);
 
@@ -253,12 +255,14 @@ void auto_avoidance() {
       Serial.println("hand right");
       go_Left();
       set_Motorspeed(TURN_SPEED, TURN_SPEED);
+      auto_tracking();
       delay(turntime);
 
     } else if (obstacle_sign == "00010" || obstacle_sign == "00111" || obstacle_sign == "00011" || obstacle_sign == "00101" || obstacle_sign == "00110" || obstacle_sign == "01010") {
       Serial.println("hand left");
       go_Right();
       set_Motorspeed(TURN_SPEED, TURN_SPEED);
+      auto_tracking();
       delay(turntime);
 
     }
@@ -267,12 +271,14 @@ void auto_avoidance() {
       Serial.println("hand back left");
       go_Advance();
       set_Motorspeed(BACK_SPEED1, BACK_SPEED2);
+      auto_tracking();
       delay(backtime);
 
     } else if (obstacle_sign == "11011" || obstacle_sign == "11101" || obstacle_sign == "11110" || obstacle_sign == "01110") {
       Serial.println("hand back right");
       go_Advance();
       set_Motorspeed(BACK_SPEED2, BACK_SPEED1);
+      auto_tracking();
       delay(backtime);
 
     }
@@ -344,11 +350,11 @@ void auto_tracking() {
     go_Back1();  //The car front touch white line, need to reverse
     set_Motorspeed1(FAST_SPEED, FAST_SPEED);
     n=0;
-    delay(100);
   }
   if(sensorval == "11111"){
     n=1;
   }
+  else n=0;
 }
 
 void setup() {
@@ -380,12 +386,15 @@ void setup() {
   /*init servo*/
   head.attach(SERVO_PIN);
   head.write(90);
-  delay(2000);
+  delay(1000);
   Serial.begin(9600);
 }
 
 void loop() {
-  auto_avoidance();
-  auto_tracking();
+  if(n==1) auto_avoidance();
+  else auto_tracking();
+  Serial.print("n");
+  Serial.println(n);
+  
 
 }
