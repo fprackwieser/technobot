@@ -67,7 +67,7 @@ void stop_Stop1()    //Stop
   digitalWrite(LeftMotorDirPin2,LOW);
 }
 /*set motor speed */
-void set_Motorspeed(int speed_L,int speed_R)
+void set_Motorspeed1(int speed_L,int speed_R)
 {
   analogWrite(speedPinL,speed_L); 
   analogWrite(speedPinR,speed_R);   
@@ -136,6 +136,8 @@ void auto_tracking(){
     go_Back1();   //The car front touch white line, need to reverse
     set_Motorspeed1(FAST_SPEED,FAST_SPEED);
     delay(100);
+    go_Right1();  //Turn right
+    set_Motorspeed1(MID_SPEED,MID_SPEED);
   }
 
   if  (sensorval=="11111")
