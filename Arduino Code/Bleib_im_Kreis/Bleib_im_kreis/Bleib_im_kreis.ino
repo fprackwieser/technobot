@@ -5,7 +5,7 @@
 #define speedPinL 6    // Left PWM pin connect MODEL-X ENB
 #define LeftMotorDirPin1  9    //Left Motor direction pin 1 to MODEL-X IN3 
 #define LeftMotorDirPin2  10   //Left Motor direction pin 1 to MODEL-X IN4 
-
+#define BUZZ_PIN     13
 
 /*From left to right, connect to D3,A1-A3 ,D10*/
 #define LFSensor_0 A0  //OLD D3
@@ -75,7 +75,7 @@ void set_Motorspeed1(int speed_L,int speed_R)
 
 void setup()
 {
-   
+  pinMode(BUZZ_PIN, OUTPUT);
   pinMode(RightMotorDirPin1, OUTPUT); 
   pinMode(RightMotorDirPin2, OUTPUT); 
   pinMode(speedPinL, OUTPUT);  
@@ -90,9 +90,12 @@ void setup()
 }
 
 boolean flag=false;
+
 void loop()
 { 
+     digitalWrite(BUZZ_PIN, LOW);  
  auto_tracking();
+   digitalWrite(BUZZ_PIN, HIGH);  
 } //end of loop
  
 char sensor[5];
