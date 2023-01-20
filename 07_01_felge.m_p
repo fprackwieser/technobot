@@ -1,0 +1,44 @@
+﻿VOLUMEN =  7.7600861e+03  MM^3
+FLÄCHENINHALT =  8.1329840e+03  MM^2
+DICHTE =  2.7000000e-06 KILOGRAMM / MM^3
+MASSE =  2.0952232e-02 KILOGRAMM 
+SCHWERPUNKT in Bezug auf den Koordinatenrahmen _07_01_FELGE:
+X   Y   Z     0.0000000e+00  1.6871825e+01  9.4842534e-03  MM
+
+Trägheit in Bezug auf Koordinatenrahmen _07_01_FELGE  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  1.0327714e+01  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz  0.0000000e+00  6.3035218e+00 -7.8284913e-03
+Izx Izy Izz  0.0000000e+00 -7.8284913e-03  1.0336068e+01
+
+Trägheit im Schwerpunkt in Bezug auf Koordinatenrahmen _07_01_FELGE  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  4.3634809e+00  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz  0.0000000e+00  6.3035199e+00 -4.4757849e-03
+Izx Izy Izz  0.0000000e+00 -4.4757849e-03  4.3718368e+00
+
+HAUPTTRÄGHEITSMOMENT:  (KILOGRAMM * MM^2)
+I1  I2  I3   4.3634809e+00  4.3718264e+00  6.3035303e+00
+
+Rotationsmatrix von _07_01_FELGE Orientierung auf Hauptachsen:
+       1.00000        0.00039        0.00000
+       0.00000        0.00232       -1.00000
+      -0.00039        1.00000        0.00232
+
+Rotationswinkel von _07_01_FELGE Orientierung auf Hauptachsen (in Grad):
+Winkel um x  y  z  89.867          0.000          0.000 
+
+TRÄGHEITSRADIEN in Bezug auf die HAUPTACHSEN:
+R1  R2  R3 1.4431165e+01  1.4444959e+01  1.7345098e+01  MM
+
+---------------------------------------------
+
+MASSENEIGENSCHAFTEN DER KÖRPER DES TEILS
+(in Teileinheiten und dem Koordinatenrahmen _07_01_FELGE)
+
+   DICHTE             MASSE          SCHW.PKT.:  X        Y         Z
+
+                        Körper 1            MATERIAL:                          ENAW-AL99_5
+         2.70000e-06  2.09522e-02  0.00000e+00  1.68718e+01  9.48425e-03

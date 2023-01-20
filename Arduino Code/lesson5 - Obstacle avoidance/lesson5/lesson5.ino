@@ -156,7 +156,7 @@ int obstacle_status =B100000;
 void auto_avoidance(){
 
   ++numcycles;
-  if(numcycles>=LPT){ //Watch if something is around every LPT loops while moving forward 
+  if(numcycles>=LPT){ //Watch if something is around every LPT sss while moving forward 
      stop_Stop();
     String obstacle_sign=watchsurrounding(); // 5 digits of obstacle_sign binary value means the 5 direction obstacle status
       Serial.print("begin str=");
