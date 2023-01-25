@@ -1,4 +1,13 @@
-﻿MB_INST_IDX     290
+﻿MB_INST_IDX     299
+2   DIN562_M10                          DIN562                             
+2   DIN562_M1_6                         DIN562                             
+2   DIN562_M2                           DIN562                             
+2   DIN562_M2_5                         DIN562                             
+2   DIN562_M3                           DIN562                             
+2   DIN562_M4                           DIN562                             
+2   DIN562_M5                           DIN562                             
+2   DIN562_M6                           DIN562                             
+2   DIN562_M8                           DIN562                             
 2   DIN912_M10                          DIN912                             
 2   DIN912_M10X100                      DIN912                             
 2   DIN912_M10X16                       DIN912                             
@@ -289,4 +298,4 @@
 2   ISO1207_M6X45                       ISO1207                            
 2   ISO1207_M6X50                       ISO1207                            
 2   ISO1207_M6X8                        ISO1207                            
-MB_INST_IDX     290
+MB_INST_IDX     299
