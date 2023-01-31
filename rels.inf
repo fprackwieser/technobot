@@ -1,0 +1,108 @@
+﻿Beziehung                           Parameter                 Neuer Wert
+--------                           ---------                 --- -----
+
+/*** 06_ARDUINO_UNO hat keine Beziehungen.
+
+Lokale Parameter
+----------------
+
+Symbolische Konstante           Aktueller Wert       Eigenschaften               
+------------------------------- -------------------- --------------------------- 
+PTC_MATERIAL_TYPE               9                    TYP: Ganzzahl              
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PTC_FAILURE_CRITERION_TYPE      NONE                 TYP: Zeichenfolge          
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINGESCHRÄNKT: JA          
+
+PTC_FATIGUE_TYPE                NONE                 TYP: Zeichenfolge          
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINGESCHRÄNKT: JA          
+
+PTC_MATERIAL_SUB_TYPE           LINEAR               TYP: Zeichenfolge          
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINGESCHRÄNKT: JA          
+
+PTC_MASS_DENSITY                9.600000e-10         TYP: Reelle Zahl           
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: tonne/mm^3        
+                                                     EINGESCHRÄNKT: JA          
+
+PTC_CONDITION                   PE-HD                TYP: Zeichenfolge          
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PTC_INITIAL_BEND_Y_FACTOR       5.000000e-01         TYP: Reelle Zahl           
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINGESCHRÄNKT: JA          
+
+PRO_UNIT_SYS                    HTL_System           TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_UNIT_MASS                   UNIT_KG              TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_UNIT_LENGTH                 UNIT_MM              TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PTC_POISSON_RATIO               3.000000e-01         TYP: Reelle Zahl           
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINGESCHRÄNKT: JA          
+
+PTC_MATERIAL_DESCRIPTION                             TYP: Zeichenfolge          
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+TEMPERATURE                     0.000000e+00         TYP: Reelle Zahl           
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: C                 
+
+PTC_BEND_TABLE                                       TYP: Zeichenfolge          
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PTC_XHATCH_FILE                 4_kunststoff         TYP: Zeichenfolge          
+                                                     QUELLE: Material           
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
