@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"30-06122017-099348";"";
+"REFERENCE";"07210-03";"";
+"TraceParts.PartTitle";"07210 Sechskantmuttern DIN 934 / DIN EN ISO 4032 / DI...";"";
+"TraceParts.InstanceId";"30-06122017-0993486P2WKRHCTPRQ6L4VKC7GKKT3D";"";
+"TraceParts.PartVersion";"1.0.6";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"norelem";"";
+"DESIGN";"SECHSKANTMUTTER M03 STAHL 8, DIN934, SW=5,5";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"de";"";
+"TraceParts.ClassPath";"NORELEM:30-06122017-099348";"";
