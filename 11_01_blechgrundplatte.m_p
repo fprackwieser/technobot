@@ -1,0 +1,46 @@
+﻿Masseneigenschaft von TEIL 11_01_BLECHGRUNDPLATTE
+
+VOLUMEN =  1.2506633e+04  MM^3
+FLÄCHENINHALT =  3.1872756e+04  MM^2
+DICHTE =  2.7000000e-06 KILOGRAMM / MM^3
+MASSE =  3.3767910e-02 KILOGRAMM 
+SCHWERPUNKT in Bezug auf den Koordinatenrahmen _11_01_BLECHGRUNDPLATTE:
+X   Y   Z     0.0000000e+00 -1.1562206e+01  3.3963423e-01  MM
+
+Trägheit in Bezug auf Koordinatenrahmen _11_01_BLECHGRUNDPLATTE  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  4.7457227e+01  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz  0.0000000e+00  5.4637460e+01  7.5904228e-02
+Izx Izy Izz  0.0000000e+00  7.5904228e-02  1.0206844e+02
+
+Trägheit im Schwerpunkt in Bezug auf Koordinatenrahmen _11_01_BLECHGRUNDPLATTE  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  4.2939082e+01  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz  0.0000000e+00  5.4633565e+01 -5.6699685e-02
+Izx Izy Izz  0.0000000e+00 -5.6699685e-02  9.7554189e+01
+
+HAUPTTRÄGHEITSMOMENT:  (KILOGRAMM * MM^2)
+I1  I2  I3   4.2939082e+01  5.4633490e+01  9.7554264e+01
+
+Rotationsmatrix von _11_01_BLECHGRUNDPLATTE Orientierung auf Hauptachsen:
+       1.00000        0.00000        0.00000
+       0.00000        1.00000       -0.00132
+       0.00000        0.00132        1.00000
+
+Rotationswinkel von _11_01_BLECHGRUNDPLATTE Orientierung auf Hauptachsen (in Grad):
+Winkel um x  y  z   0.076          0.000          0.000 
+
+TRÄGHEITSRADIEN in Bezug auf die HAUPTACHSEN:
+R1  R2  R3 3.5659421e+01  4.0223271e+01  5.3749080e+01  MM
+
+---------------------------------------------
+
+MASSENEIGENSCHAFTEN DER KÖRPER DES TEILS
+(in Teileinheiten und dem Koordinatenrahmen _11_01_BLECHGRUNDPLATTE)
+
+   DICHTE             MASSE          SCHW.PKT.:  X        Y         Z
+
+                        Körper 1            MATERIAL:                          ENAW-AL99_5
+         2.70000e-06  3.37679e-02  0.00000e+00 -1.15622e+01  3.39634e-01
