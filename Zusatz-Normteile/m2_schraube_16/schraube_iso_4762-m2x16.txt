@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"ISO 4762 - d M2 x l 16";"";
+"MATERIAL";"Unbestimmt";"";
+"DESIGN";"Innensechskant-Hutschraube ISO 4762 - M2 x 16";"";
+"TraceParts.PartNumber";"10-10052001-156187";"";
+"STANDARD";"ISO 4762";"";
+"TraceParts.PartLanguage";"de";"";
+"OMNICLASS23";"23.13.23.11.13.19";"";
+"TraceParts.InstanceId";"10-10052001-156187548OBZ7RMBE6GYO4B56EK12T0";"";
+"TraceParts.PartTitle";"Innensechskant-Hutschraube ISO 4762 - M2 x 16";"";
+"NOTE";"Klasse: Unbestimmt";"";
+"TraceParts.PartVersion";"1.5.7";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStandardAcronym";"ISO";"";
