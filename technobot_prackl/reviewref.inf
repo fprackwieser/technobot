@@ -1,0 +1,52 @@
+﻿|***************************|
+    REFERENZ-INFORMATIONEN    
+|***************************|
+ Referenz Nr. 1 aus 1 
+
+Referenz:
+   TYP   : Kurve
+
+Status   : fehlt
+
+
+Referenz-Besitzer:
+ Modell  :
+   NAME   : 01_NAHT_3D_DRUCK 
+   TYP   : Teil
+ KE :
+
+    KE-Nummer       9
+    INTERNE KE-ID 155
+    Eltern = 4(#3) 9(#5) 7(#4) 
+
+
+ Skizze
+
+  NR.     ELEMENTNAME       INFORMATIONEN                                       
+  ---     -------------     -------------                                       
+   1      KE-Name           Definiert                                           
+   2      Schnitt           Definiert                                           
+   2.1    Ebene einrichten  Definiert                                           
+   2.1.1  Skizzierebene     OBEN:F4(BEZUGSEBENE)                                
+   2.1.2  Ansichtsrichtung  Seite 1                                             
+   2.1.3  Orientierung      Rechts                                              
+   2.1.4  Referenz          RECHTS:F3(BEZUGSEBENE)                              
+   2.2    Skizze            Definiert                                           
+
+    Schnittname = Skizze 1 
+    SCHNITT ÖFFNEN
+
+    FEATURE Ist in Folie(n) :
+      _KURVEN - Operation = Angezeigt
+
+    Bemaßungen des KE:
+    d114 = (  Angezeigt:) 80 General_Dims (schwach)
+           (Gespeichert:) 80.0 ( 0.3, -0.3 ) 
+    d115 = (  Angezeigt:) 77.5 General_Dims (schwach)
+           (Gespeichert:) 77.5 ( 0.3, -0.3 ) 
+    d117 = (  Angezeigt:) 303.393 General_DimsR (schwach)
+           (Gespeichert:) 303.3930785074 ( 0.5, -0.5 ) 
+Beziehung                           Parameter                 Neuer Wert
+--------                           ---------                 --- -----
+
+*** Von diesesm KE gesteuerte Teilebeziehungen:

@@ -1,0 +1,48 @@
+﻿Masseneigenschaft von TEIL 11_01_BLECHGRUNDPLATTE
+
+VOLUMEN =  1.2672827e+04  MM^3
+FLÄCHENINHALT =  3.5958882e+04  MM^2
+DICHTE =  2.7000000e-06 KILOGRAMM / MM^3
+MASSE =  3.4216634e-02 KILOGRAMM 
+SCHWERPUNKT in Bezug auf den Koordinatenrahmen _11_01_BLECHGRUNDPLATTE:
+X   Y   Z     5.3459106e-03 -1.0807258e+01  4.0000000e-01  MM
+
+Trägheit in Bezug auf Koordinatenrahmen _11_01_BLECHGRUNDPLATTE  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  5.2188988e+01 -1.8234687e-03 -7.3167626e-05
+Iyx Iyy Iyz -1.8234687e-03  6.6699120e+01  1.4791520e-01
+Izx Izy Izz -7.3167626e-05  1.4791520e-01  1.1887351e+02
+
+Trägheit im Schwerpunkt in Bezug auf Koordinatenrahmen _11_01_BLECHGRUNDPLATTE  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  4.8187120e+01 -3.8003222e-03  0.0000000e+00
+Iyx Iyy Iyz -3.8003222e-03  6.6693644e+01  0.0000000e+00
+Izx Izy Izz  0.0000000e+00  0.0000000e+00  1.1487711e+02
+
+HAUPTTRÄGHEITSMOMENT:  (KILOGRAMM * MM^2)
+I1  I2  I3   4.8187119e+01  6.6693645e+01  1.1487711e+02
+
+Rotationsmatrix von _11_01_BLECHGRUNDPLATTE Orientierung auf Hauptachsen:
+       1.00000       -0.00021        0.00000
+       0.00021        1.00000        0.00000
+       0.00000        0.00000        1.00000
+
+Rotationswinkel von _11_01_BLECHGRUNDPLATTE Orientierung auf Hauptachsen (in Grad):
+Winkel um x  y  z   0.000          0.000          0.000 
+
+TRÄGHEITSRADIEN in Bezug auf die HAUPTACHSEN:
+R1  R2  R3 3.7527258e+01  4.4149276e+01  5.7942618e+01  MM
+
+---------------------------------------------
+
+MASSENEIGENSCHAFTEN DER KÖRPER DES TEILS
+(in Teileinheiten und dem Koordinatenrahmen _11_01_BLECHGRUNDPLATTE)
+
+   DICHTE             MASSE          SCHW.PKT.:  X        Y         Z
+
+                        Körper 1            MATERIAL:                          ENAW-AL99_5
+         2.70000e-06  2.76508e-02  0.00000e+00 -1.10829e+01  4.00000e-01
+                        Körper 2            MATERIAL:                          ENAW-AL99_5
+         2.70000e-06  6.56581e-03  2.78597e-02 -9.64659e+00  4.00000e-01

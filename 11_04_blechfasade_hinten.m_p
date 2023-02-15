@@ -1,0 +1,46 @@
+﻿Masseneigenschaft von TEIL 11_04_BLECHFASADE_HINTEN
+
+VOLUMEN =  1.0508709e+04  MM^3
+FLÄCHENINHALT =  3.2617373e+04  MM^2
+DICHTE =  7.8500000e-06 KILOGRAMM / MM^3
+MASSE =  8.2493366e-02 KILOGRAMM 
+SCHWERPUNKT in Bezug auf den Koordinatenrahmen _11_04_BLECHFASADE_HINTEN:
+X   Y   Z     6.9845332e+00  3.8619261e+00 -1.7700000e+01  MM
+
+Trägheit in Bezug auf Koordinatenrahmen _11_04_BLECHFASADE_HINTEN  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  2.3721135e+02  3.7990518e+00  1.0198344e+01
+Iyx Iyy Iyz  3.7990518e+00  3.8542307e+02  5.6389241e+00
+Izx Izy Izz  1.0198344e+01  5.6389241e+00  5.5212348e+02
+
+Trägheit im Schwerpunkt in Bezug auf Koordinatenrahmen _11_04_BLECHFASADE_HINTEN  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  2.1013665e+02  6.0242074e+00  0.0000000e+00
+Iyx Iyy Iyz  6.0242074e+00  3.5555439e+02  0.0000000e+00
+Izx Izy Izz  0.0000000e+00  0.0000000e+00  5.4686881e+02
+
+HAUPTTRÄGHEITSMOMENT:  (KILOGRAMM * MM^2)
+I1  I2  I3   2.0988752e+02  3.5580353e+02  5.4686881e+02
+
+Rotationsmatrix von _11_04_BLECHFASADE_HINTEN Orientierung auf Hauptachsen:
+       0.99915        0.04132        0.00000
+      -0.04132        0.99915        0.00000
+       0.00000        0.00000        1.00000
+
+Rotationswinkel von _11_04_BLECHFASADE_HINTEN Orientierung auf Hauptachsen (in Grad):
+Winkel um x  y  z   0.000          0.000         -2.368 
+
+TRÄGHEITSRADIEN in Bezug auf die HAUPTACHSEN:
+R1  R2  R3 5.0441012e+01  6.5674324e+01  8.1420181e+01  MM
+
+---------------------------------------------
+
+MASSENEIGENSCHAFTEN DER KÖRPER DES TEILS
+(in Teileinheiten und dem Koordinatenrahmen _11_04_BLECHFASADE_HINTEN)
+
+   DICHTE             MASSE          SCHW.PKT.:  X        Y         Z
+
+                        Körper 1            MATERIAL:                               S235JR
+         7.85000e-06  8.24934e-02  6.98453e+00  3.86193e+00 -1.77000e+01

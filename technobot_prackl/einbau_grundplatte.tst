@@ -1,0 +1,6 @@
+﻿Varianten_Name       des Modells        Regenerierungsstatus
+
+EINBAU_GRUNDPLATTE_3D_DRUCKEINBAU_GRUNDPLATTE Erfolgreich
+EINBAU_GRUNDPLATTE_D_08EINBAU_GRUNDPLATTE Erfolgreich
+EINBAU_GRUNDPLATTE_D_04EINBAU_GRUNDPLATTE Erfolgreich
+
