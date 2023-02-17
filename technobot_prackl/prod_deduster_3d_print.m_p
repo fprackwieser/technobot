@@ -1,0 +1,62 @@
+﻿Masseneigenschaft von BAUGRUPPE PROD_DEDUSTER_3D_PRINT
+
+VOLUMEN =  3.0088624e+05  MM^3
+FLÄCHENINHALT =  1.5418851e+05  MM^2
+DURCHSCHNITTLICHE DICHTE =  5.5158280e-06 KILOGRAMM / MM^3
+MASSE =  1.6596368e+00 KILOGRAMM 
+SCHWERPUNKT in Bezug auf den Koordinatenrahmen _PROD_DEDUSTER_3D_PRINT:
+X   Y   Z    -3.0795440e-02 -1.5033489e+01  2.3958550e+01  MM
+
+Trägheit in Bezug auf Koordinatenrahmen _PROD_DEDUSTER_3D_PRINT  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  3.2915565e+03 -1.4281726e+01 -1.9105994e+00
+Iyx Iyy Iyz -1.4281726e+01  6.1280773e+03  9.8508308e+02
+Izx Izy Izz -1.9105994e+00  9.8508308e+02  4.1217620e+03
+
+Trägheit im Schwerpunkt in Bezug auf Koordinatenrahmen _PROD_DEDUSTER_3D_PRINT  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  1.9638173e+03 -1.3513375e+01 -3.1351027e+00
+Iyx Iyy Iyz -1.3513375e+01  5.1754241e+03  3.8731410e+02
+Izx Izy Izz -3.1351027e+00  3.8731410e+02  3.7466728e+03
+
+HAUPTTRÄGHEITSMOMENT:  (KILOGRAMM * MM^2)
+I1  I2  I3   1.9637592e+03  3.6484325e+03  5.2737226e+03
+
+Rotationsmatrix von _PROD_DEDUSTER_3D_PRINT Orientierung auf Hauptachsen:
+       0.99999        0.00017        0.00419
+       0.00410       -0.24586       -0.96930
+       0.00087        0.96931       -0.24586
+
+Rotationswinkel von _PROD_DEDUSTER_3D_PRINT Orientierung auf Hauptachsen (in Grad):
+Winkel um x  y  z 104.233          0.240          0.000 
+
+TRÄGHEITSRADIEN in Bezug auf die HAUPTACHSEN:
+R1  R2  R3 3.4398348e+01  4.6886373e+01  5.6370530e+01  MM
+
+---------------------------------------------
+
+Masseneigenschaften der Komponenten der Baugruppe
+(in Baugruppeneinheiten und dem Koordinatenrahmen _PROD_DEDUSTER_3D_PRINT)
+
+   DICHTE             MASSE          SCHW.PKT.:  X        Y         Z
+
+               01_GRUNDPLATTE_15            MATERIAL:                         MAT_ZUWEISEN
+         7.80000e-06  1.58732e-01 -7.39405e-02  1.31889e+00 -7.69602e+00
+               EINBAU_ANTRIEB_15            MATERIAL:                              UNKNOWN
+         3.49693e-06  2.22841e-01 -4.77339e+01 -1.62645e+01  0.00000e+00
+               EINBAU_TREIBER_15            MATERIAL:                              UNKNOWN
+         1.83666e-06  7.81715e-03 -3.37736e+01  8.59866e+00 -3.62768e+01
+               EINBAU_TREIBER_15            MATERIAL:                              UNKNOWN
+         1.83666e-06  7.81715e-03  3.52264e+01 -7.09866e+00 -3.72232e+01
+               EINBAU_ANTRIEB_15            MATERIAL:                              UNKNOWN
+         3.49693e-06  2.22841e-01  4.77339e+01 -1.62645e+01  0.00000e+00
+                     01_SCHAUFEL            MATERIAL:                         MAT_ZUWEISEN
+         7.80000e-06  9.42498e-01  0.00000e+00 -1.92164e+01  4.72976e+01
+                EINBAU_CONVERTER            MATERIAL:                              UNKNOWN
+         7.66509e-06  4.16400e-02  2.20089e+01  1.04022e+01 -3.63309e+01
+             EINBAU_CONVERTER_15            MATERIAL:                              UNKNOWN
+         7.66509e-06  4.16400e-02 -2.33911e+01 -8.90223e+00 -3.65691e+01
+               EINBAU_ARDUINO_15            MATERIAL:                              UNKNOWN
+         1.07251e-06  1.38097e-02  4.94566e-01  9.16299e+00  1.18312e+00
