@@ -1,0 +1,25 @@
+﻿  Modell EINBAU_GRUNDPLATTE_3D_PRINT: 
+ 
+
+  1 Zirkulärer-Bezug-Schleifen gefunden
+ 
+
+   Schleife Nr. 1
+
+   Schleifentiefe beträgt 5
+
+KE-Nummer 11 (KOMPONENTE, ID = 79) 
+  in Modell EINBAU_GRUNDPLATTE_3D_PRINT verweist auf:
+
+KE-Nummer 26 (ZUSAMMENFÜHREN, ID = 8602) 
+  in Modell LOCHBLECH_3D_DRUCK_D_15 muss folgen nach:
+
+KE-Nummer 25 (AUSSCHNITT, ID = 8323) 
+  in Modell LOCHBLECH_3D_DRUCK_D_15 verweist auf:
+
+KE-Nummer 12 (KOMPONENTE, ID = 85) 
+  in Modell EINBAU_GRUNDPLATTE_3D_PRINT muss folgen nach:
+
+KE-Nummer 11 (KOMPONENTE, ID = 79) 
+  in Modell EINBAU_GRUNDPLATTE_3D_PRINT - Kreis geschlossen.
+

@@ -1,0 +1,22 @@
+﻿  Modell 00_ROBOT_3D_PRINT: 
+ 
+
+  1 Zirkulärer-Bezug-Schleifen gefunden
+ 
+
+   Schleife Nr. 1
+
+   Schleifentiefe beträgt 4
+
+KE-Nummer 25 (ZUSAMMENFÜHREN, ID = 3409) 
+  in Modell LOCHBLECH_3D_DRUCK_D_15 verweist auf:
+
+KE-Nummer 15 (AUSSCHNITT, ID = 4084) 
+  in Modell UMRANDUNG_3D_DRUCK_D_4 muss folgen nach:
+
+KE-Nummer 12 (PROFIL_4, ID = 2884) 
+  in Modell UMRANDUNG_3D_DRUCK_D_4 verweist auf:
+
+KE-Nummer 25 (ZUSAMMENFÜHREN, ID = 3409) 
+  in Modell LOCHBLECH_3D_DRUCK_D_15 - Kreis geschlossen.
+
