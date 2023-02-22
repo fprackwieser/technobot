@@ -1,0 +1,24 @@
+﻿MB_INST_IDX      22
+1   EINBAU_ANTRIEB_04                   EINBAU_ANTRIEB                     
+1   EINBAU_ANTRIEB_08                   EINBAU_ANTRIEB                     
+1   EINBAU_ANTRIEB_15                   EINBAU_ANTRIEB                     
+1   EINBAU_ARDUINO_04                   EINBAU_ARDUINO                     
+1   EINBAU_ARDUINO_08                   EINBAU_ARDUINO                     
+1   EINBAU_ARDUINO_15                   EINBAU_ARDUINO                     
+1   EINBAU_CONVERTER_04                 EINBAU_CONVERTER                   
+1   EINBAU_CONVERTER_08                 EINBAU_CONVERTER                   
+1   EINBAU_CONVERTER_15                 EINBAU_CONVERTER                   
+1   EINBAU_TREIBER_04                   EINBAU_TREIBER                     
+1   EINBAU_TREIBER_08                   EINBAU_TREIBER                     
+1   EINBAU_TREIBER_15                   EINBAU_TREIBER                     
+2   01_GRUNDPLATTE_04                   01_GRUNDPLATTE                     
+2   01_GRUNDPLATTE_08                   01_GRUNDPLATTE                     
+2   01_GRUNDPLATTE_15                   01_GRUNDPLATTE                     
+2   FASADE_04                           01_FASADE                          
+2   FASADE_08                           01_FASADE                          
+2   FASADE_15                           01_FASADE                          
+2   ZUSATZ_SPACER_M2X3                  ZUSATZ_SPACER                      
+2   ZUSATZ_SPACER_M2X5                  ZUSATZ_SPACER                      
+2   ZUSATZ_SPACER_M2X6                  ZUSATZ_SPACER                      
+2   ZUSATZ_SPACER_M2X8                  ZUSATZ_SPACER                      
+MB_INST_IDX      22

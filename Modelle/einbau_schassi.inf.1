@@ -1,0 +1,453 @@
+﻿ 
+ Baugruppenname = EINBAU_SCHASSI 
+
+    Ebene 1 EINBAU_SCHASSI Baugr 
+      Ebene 2 01_GRUNDPLATTE_15 Teil 
+      Ebene 2 01_SCHAUFEL Teil 
+      Ebene 2 NORM_ULTRASCHALLSENSOR_FOOT Teil 
+      Ebene 2 NORM_ULTRASCHALLSENSOR_FOOT Teil 
+      Ebene 2 NORM_ULTRASCHALLSENSOR_FOOT Teil 
+      Ebene 2 NORM_ULTRASCHALLSENSOR_FOOT Teil 
+
+ Komponenten:
+
+
+ KE-Nummer       1
+ INTERNE KE-ID 47
+
+
+ GRUPPENKOPF
+
+  NR.   ELEMENTNAME   INFORMATIONEN                                             
+  ---   -------------  -------------                                             
+   1    Name          Definiert                                                 
+   2    KEs           Definiert                                                 
+   3    Konstruktion  Definiert                                                 
+
+ Name = LOCAL_GROUP
+
+
+
+ Mitglied einer Gruppe, Name = LOCAL_GROUP 
+  Erstes KE der Gruppe: ID = 47 
+  Letztes KE der Gruppe: ID = 43 
+
+ ********************
+
+
+ KE-Nummer       2
+ INTERNE KE-ID 1
+
+
+ KOORDINATENSYSTEM
+
+  NR.   ELEMENTNAME                  INFORMATIONEN                              
+  ---   -------------                -------------                              
+   1    KE-Name                      Definiert                                  
+   2    Namensanzeigeoption          JA                                         
+   3    Zoomabhängige Anzeigeoption  NEIN                                       
+
+ Name = BG-BASIS
+ KE gehört zu lokaler Gruppe LOCAL_GROUP
+
+    FEATURE Ist in Folie(n) :
+      S-BG-KOORDINATENSYSTEM - Operation = Angezeigt
+
+
+ Mitglied einer Gruppe, Name = LOCAL_GROUP 
+  Erstes KE der Gruppe: ID = 47 
+  Letztes KE der Gruppe: ID = 43 
+
+ ********************
+
+
+ KE-Nummer       3
+ INTERNE KE-ID 4
+ Kinder = 39(#7) 43(#8) 58(#13) 50(#14) 59(#15) 
+
+
+ BEZUGSEBENE
+
+  NR.     ELEMENTNAME         INFORMATIONEN                                     
+  ---     -------------       -------------                                     
+   1      KE-Name             Definiert                                         
+   2      Bedingungen         Definiert                                         
+   2.1    Bedingung #1        Definiert                                         
+   2.1.1  Konstr-Typ          X-Achse                                           
+   3      BezugsRicht umkehr  Definiert                                         
+   4      Einpassen           Definiert                                         
+   4.1    Einpassart          Standard                                          
+
+ Name = BG-RECHTS
+ KE gehört zu lokaler Gruppe LOCAL_GROUP
+
+    FEATURE Ist in Folie(n) :
+      S-BG-EBENEN - Operation = Angezeigt
+
+
+ Mitglied einer Gruppe, Name = LOCAL_GROUP 
+  Erstes KE der Gruppe: ID = 47 
+  Letztes KE der Gruppe: ID = 43 
+
+ ********************
+
+
+ KE-Nummer       4
+ INTERNE KE-ID 7
+ Kinder = 35(#6) 43(#8) 
+
+
+ BEZUGSEBENE
+
+  NR.     ELEMENTNAME         INFORMATIONEN                                     
+  ---     -------------       -------------                                     
+   1      KE-Name             Definiert                                         
+   2      Bedingungen         Definiert                                         
+   2.1    Bedingung #1        Definiert                                         
+   2.1.1  Konstr-Typ          Y-Achse                                           
+   3      BezugsRicht umkehr  Definiert                                         
+   4      Einpassen           Definiert                                         
+   4.1    Einpassart          Standard                                          
+
+ Name = BG-OBEN
+ KE gehört zu lokaler Gruppe LOCAL_GROUP
+
+    FEATURE Ist in Folie(n) :
+      S-BG-EBENEN - Operation = Angezeigt
+
+
+ Mitglied einer Gruppe, Name = LOCAL_GROUP 
+  Erstes KE der Gruppe: ID = 47 
+  Letztes KE der Gruppe: ID = 43 
+
+ ********************
+
+
+ KE-Nummer       5
+ INTERNE KE-ID 9
+ Kinder = 35(#6) 39(#7) 
+
+
+ BEZUGSEBENE
+
+  NR.     ELEMENTNAME         INFORMATIONEN                                     
+  ---     -------------       -------------                                     
+   1      KE-Name             Definiert                                         
+   2      Bedingungen         Definiert                                         
+   2.1    Bedingung #1        Definiert                                         
+   2.1.1  Konstr-Typ          Z-Achse                                           
+   3      BezugsRicht umkehr  Definiert                                         
+   4      Einpassen           Definiert                                         
+   4.1    Einpassart          Standard                                          
+
+ Name = BG-VORNE
+ KE gehört zu lokaler Gruppe LOCAL_GROUP
+
+    FEATURE Ist in Folie(n) :
+      S-BG-EBENEN - Operation = Angezeigt
+
+
+ Mitglied einer Gruppe, Name = LOCAL_GROUP 
+  Erstes KE der Gruppe: ID = 47 
+  Letztes KE der Gruppe: ID = 43 
+
+ ********************
+
+
+ KE-Nummer       6
+ INTERNE KE-ID 35
+ Eltern = 7(#4) 9(#5) 
+
+
+ BEZUGSACHSE
+
+  NR.     ELEMENTNAME   INFORMATIONEN                                           
+  ---     -------------  -------------                                           
+   1      KE-Name       Definiert                                               
+   2      Bedingungen   Definiert                                               
+   2.1    Bedingung #1  Definiert                                               
+   2.1.1  Typ           Durch                                                   
+   2.1.2  Referenz      BG-OBEN:F4(BEZUGSEBENE)                                 
+   2.2    Bedingung #2  Definiert                                               
+   2.2.1  Typ           Durch                                                   
+   2.2.2  Referenz      BG-VORNE:F5(BEZUGSEBENE)                                
+   3      Einpassen     Definiert                                               
+   3.1    Einpassart    Standard                                                
+
+ Name = A_X
+ KE gehört zu lokaler Gruppe LOCAL_GROUP
+
+    FEATURE Ist in Folie(n) :
+      _ACHSEN - Operation = Angezeigt
+
+
+ Mitglied einer Gruppe, Name = LOCAL_GROUP 
+  Erstes KE der Gruppe: ID = 47 
+  Letztes KE der Gruppe: ID = 43 
+
+ ********************
+
+
+ KE-Nummer       7
+ INTERNE KE-ID 39
+ Eltern = 4(#3) 9(#5) 
+
+
+ BEZUGSACHSE
+
+  NR.     ELEMENTNAME   INFORMATIONEN                                           
+  ---     -------------  -------------                                           
+   1      KE-Name       Definiert                                               
+   2      Bedingungen   Definiert                                               
+   2.1    Bedingung #1  Definiert                                               
+   2.1.1  Typ           Durch                                                   
+   2.1.2  Referenz      BG-RECHTS:F3(BEZUGSEBENE)                               
+   2.2    Bedingung #2  Definiert                                               
+   2.2.1  Typ           Durch                                                   
+   2.2.2  Referenz      BG-VORNE:F5(BEZUGSEBENE)                                
+   3      Einpassen     Definiert                                               
+   3.1    Einpassart    Standard                                                
+
+ Name = A_Y
+ KE gehört zu lokaler Gruppe LOCAL_GROUP
+
+    FEATURE Ist in Folie(n) :
+      _ACHSEN - Operation = Angezeigt
+
+
+ Mitglied einer Gruppe, Name = LOCAL_GROUP 
+  Erstes KE der Gruppe: ID = 47 
+  Letztes KE der Gruppe: ID = 43 
+
+ ********************
+
+
+ KE-Nummer       8
+ INTERNE KE-ID 43
+ Eltern = 4(#3) 7(#4) 
+
+
+ BEZUGSACHSE
+
+  NR.     ELEMENTNAME   INFORMATIONEN                                           
+  ---     -------------  -------------                                           
+   1      KE-Name       Definiert                                               
+   2      Bedingungen   Definiert                                               
+   2.1    Bedingung #1  Definiert                                               
+   2.1.1  Typ           Durch                                                   
+   2.1.2  Referenz      BG-RECHTS:F3(BEZUGSEBENE)                               
+   2.2    Bedingung #2  Definiert                                               
+   2.2.1  Typ           Durch                                                   
+   2.2.2  Referenz      BG-OBEN:F4(BEZUGSEBENE)                                 
+   3      Einpassen     Definiert                                               
+   3.1    Einpassart    Standard                                                
+
+ Name = A_Z
+ KE gehört zu lokaler Gruppe LOCAL_GROUP
+
+    FEATURE Ist in Folie(n) :
+      _ACHSEN - Operation = Angezeigt
+
+
+ Mitglied einer Gruppe, Name = LOCAL_GROUP 
+  Erstes KE der Gruppe: ID = 47 
+  Letztes KE der Gruppe: ID = 43 
+
+ ********************
+
+
+ KOMPONENTENNUMMER 9
+ INTERNE KOMPONENTEN-ID 48
+ Kinder = 49(#11) 58(#13) 50(#14) 59(#15) 60(#16) 67(#17) 
+
+
+
+ ********************
+
+
+ KE-Nummer       10
+ INTERNE KE-ID 77
+
+
+ GRUPPENKOPF
+
+  NR.   ELEMENTNAME   INFORMATIONEN                                             
+  ---   -------------  -------------                                             
+   1    Name          Definiert                                                 
+   2    KEs           Definiert                                                 
+   3    Konstruktion  Definiert                                                 
+
+ Name = LOCAL_GROUP_1
+
+
+
+ Mitglied einer Gruppe, Name = LOCAL_GROUP_1 
+  Erstes KE der Gruppe: ID = 77 
+  Letztes KE der Gruppe: ID = 67 
+
+ ********************
+
+
+ KOMPONENTENNUMMER 11
+ INTERNE KOMPONENTEN-ID 49
+ Eltern = 48(#9) 
+ Kinder = 58(#13) 50(#14) 59(#15) 
+ KE gehört zu lokaler Gruppe LOCAL_GROUP_1
+
+
+
+ Mitglied einer Gruppe, Name = LOCAL_GROUP_1 
+  Erstes KE der Gruppe: ID = 77 
+  Letztes KE der Gruppe: ID = 67 
+
+ ********************
+
+
+ KE-Nummer       12
+ INTERNE KE-ID 74
+
+
+ GRUPPENKOPF
+
+  NR.   ELEMENTNAME   INFORMATIONEN                                             
+  ---   -------------  -------------                                             
+   1    Name          Definiert                                                 
+   2    KEs           Definiert                                                 
+   3    Konstruktion  Definiert                                                 
+
+ Name = SENSOR_AUSSCHNITTE
+ KE gehört zu lokaler Gruppe LOCAL_GROUP_1
+
+
+
+ Mitglied einer Gruppe, Name = LOCAL_GROUP_1 
+  Erstes KE der Gruppe: ID = 77 
+  Letztes KE der Gruppe: ID = 67 
+
+ ********************
+
+
+ KE-Nummer       13
+ INTERNE KE-ID 58
+
+ Nr. Elementname    Info                                            Status
+ --- ------------ -----------                                        ------
+  1  Typ          Bemaßung                                           Definiert 
+  2  RegenMethode Nicht-identisch                                    Definiert 
+  3  Bemaßungen 1                                                    Definiert 
+  4  Varianten 1. 2,                                                 Definiert 
+  5  Bemaßungen 2                                                    Optional  
+  6  BemaßVariati                                                    Definiert 
+  7  Varianten 2.                                                    Optional  
+
+ KE gehört zu lokaler Gruppe SENSOR_AUSSCHNITTE
+ Grundelement von A (2 X 1) BEMASS NICHT-IDENTISCHES MUSTER
+
+
+ Hauptmuster-Bemaßungen:
+ d0 = (  Angezeigt:) 0.5 General_Dims
+      (Gespeichert:) 0.5 ( 0.1, -0.1 ) 
+ d1 = (  Angezeigt:) 13.5 General_Dims
+      (Gespeichert:) -13.5 ( 0.2, -0.2 ) 
+ d2 = (  Angezeigt:) 45 General_Dims
+      (Gespeichert:) -45.0 ( 0.3, -0.3 ) 
+ d3 = (  Angezeigt:) 90 General_Dims
+      (Gespeichert:) 90.0 ( 0.3, -0.3 ) 
+
+ Mitglied einer Gruppe, Name = SENSOR_AUSSCHNITTE 
+  Erstes KE der Gruppe: ID = 74 
+  Letztes KE der Gruppe: ID = 67 
+
+ ********************
+
+
+ KOMPONENTENNUMMER 14
+ INTERNE KOMPONENTEN-ID 50
+ Eltern = 48(#9) 49(#11) 4(#3) 
+ Kinder = 59(#15) 
+ KE gehört zu lokaler Gruppe SENSOR_AUSSCHNITTE
+ MITGLIED (1, 1) IN A (2 X 1) BEMASS NICHT-IDENTISCHES MUSTER
+
+
+ Hauptmuster-Bemaßungen:
+ d0 = (  Angezeigt:) 0.5 General_Dims
+      (Gespeichert:) 0.5 ( 0.1, -0.1 ) 
+ d1 = (  Angezeigt:) 13.5 General_Dims
+      (Gespeichert:) -13.5 ( 0.2, -0.2 ) 
+ d2 = (  Angezeigt:) 45 General_Dims
+      (Gespeichert:) -45.0 ( 0.3, -0.3 ) 
+ d3 = (  Angezeigt:) 90 General_Dims
+      (Gespeichert:) 90.0 ( 0.3, -0.3 ) 
+
+ Mitglied einer Gruppe, Name = SENSOR_AUSSCHNITTE 
+  Erstes KE der Gruppe: ID = 74 
+  Letztes KE der Gruppe: ID = 67 
+
+ ********************
+
+
+ KOMPONENTENNUMMER 15
+ INTERNE KOMPONENTEN-ID 59
+ Eltern = 50(#14) 48(#9) 49(#11) 4(#3) 
+ KE gehört zu lokaler Gruppe SENSOR_AUSSCHNITTE
+ MITGLIED (2, 1) IN A (2 X 1) BEMASS NICHT-IDENTISCHES MUSTER
+
+
+ Hauptmuster-Bemaßungen:
+ d0 = (  Angezeigt:) 0.5 General_Dims
+      (Gespeichert:) 0.5 ( 0.1, -0.1 ) 
+ d1 = (  Angezeigt:) 13.5 General_Dims
+      (Gespeichert:) -13.5 ( 0.2, -0.2 ) 
+ d2 = (  Angezeigt:) 45 General_Dims
+      (Gespeichert:) -45.0 ( 0.3, -0.3 ) 
+ d3 = (  Angezeigt:) 90 General_Dims
+      (Gespeichert:) 90.0 ( 0.3, -0.3 ) 
+
+ Mitglied einer Gruppe, Name = SENSOR_AUSSCHNITTE 
+  Erstes KE der Gruppe: ID = 74 
+  Letztes KE der Gruppe: ID = 67 
+
+ ********************
+
+
+ KOMPONENTENNUMMER 16
+ INTERNE KOMPONENTEN-ID 60
+ Eltern = 48(#9) 
+ KE gehört zu lokaler Gruppe SENSOR_AUSSCHNITTE
+
+
+ Bemaßungen des KE:
+ d6 = (  Angezeigt:) 13.5 General_Dims
+      (Gespeichert:) -13.5 ( 0.2, -0.2 ) 
+ d7 = (  Angezeigt:) 2.5 General_Dims
+      (Gespeichert:) 2.5 ( 0.1, -0.1 ) 
+ d8 = (  Angezeigt:) 5 General_Dims
+      (Gespeichert:) -5.0 ( 0.1, -0.1 ) 
+
+ Mitglied einer Gruppe, Name = SENSOR_AUSSCHNITTE 
+  Erstes KE der Gruppe: ID = 74 
+  Letztes KE der Gruppe: ID = 67 
+
+ ********************
+
+
+ KOMPONENTENNUMMER 17
+ INTERNE KOMPONENTEN-ID 67
+ Eltern = 48(#9) 
+ KE gehört zu lokaler Gruppe SENSOR_AUSSCHNITTE
+
+
+ Bemaßungen des KE:
+ d9 = (  Angezeigt:) 13.5 General_Dims
+      (Gespeichert:) -13.5 ( 0.2, -0.2 ) 
+ d10 = (  Angezeigt:) 2.5 General_Dims
+       (Gespeichert:) 2.5 ( 0.1, -0.1 ) 
+ d11 = (  Angezeigt:) 5 General_Dims
+       (Gespeichert:) -5.0 ( 0.1, -0.1 ) 
+
+ Mitglied einer Gruppe, Name = SENSOR_AUSSCHNITTE 
+  Erstes KE der Gruppe: ID = 74 
+  Letztes KE der Gruppe: ID = 67 
+
+ ********************
+
