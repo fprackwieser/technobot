@@ -1,0 +1,46 @@
+﻿Masseneigenschaft von TEIL 01_GRUNDPLATTE_15
+
+VOLUMEN =  9.4030359e+04  MM^3
+FLÄCHENINHALT =  6.5729470e+04  MM^2
+DICHTE =  9.6000000e-07 KILOGRAMM / MM^3
+MASSE =  9.0269145e-02 KILOGRAMM 
+SCHWERPUNKT in Bezug auf den Koordinatenrahmen _01_GRUNDPLATTE_15:
+X   Y   Z    -1.9511208e-02 -1.6156530e+01  7.5251334e+00  MM
+
+Trägheit in Bezug auf Koordinatenrahmen _01_GRUNDPLATTE_15  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  2.4642382e+02  1.8911161e-02  1.2699395e-03
+Iyx Iyy Iyz  1.8911161e-02  4.7092030e+02  3.0783738e+01
+Izx Izy Izz  1.2699395e-03  3.0783738e+01  3.0624186e+02
+
+Trägheit im Schwerpunkt in Bezug auf Koordinatenrahmen _01_GRUNDPLATTE_15  (KILOGRAMM * MM^2)
+
+TRÄGHEITSTENSOR:
+Ixx Ixy Ixz  2.1774882e+02  4.7367011e-02 -1.1983777e-02
+Iyx Iyy Iyz  4.7367011e-02  4.6580854e+02  1.9808812e+01
+Izx Izy Izz -1.1983777e-02  1.9808812e+01  2.8267855e+02
+
+HAUPTTRÄGHEITSMOMENT:  (KILOGRAMM * MM^2)
+I1  I2  I3   2.1774881e+02  2.8056038e+02  4.6792673e+02
+
+Rotationsmatrix von _01_GRUNDPLATTE_15 Orientierung auf Hauptachsen:
+       1.00000       -0.00027       -0.00018
+      -0.00021       -0.10632       -0.99433
+       0.00025        0.99433       -0.10633
+
+Rotationswinkel von _01_GRUNDPLATTE_15 Orientierung auf Hauptachsen (in Grad):
+Winkel um x  y  z  96.104          0.000          0.000 
+
+TRÄGHEITSRADIEN in Bezug auf die HAUPTACHSEN:
+R1  R2  R3 4.9114331e+01  5.5749825e+01  7.1997806e+01  MM
+
+---------------------------------------------
+
+MASSENEIGENSCHAFTEN DER KÖRPER DES TEILS
+(in Teileinheiten und dem Koordinatenrahmen _01_GRUNDPLATTE_15)
+
+   DICHTE             MASSE          SCHW.PKT.:  X        Y         Z
+
+                           BLECH            MATERIAL:                          POLYETHYLEN
+         9.60000e-07  9.02691e-02 -1.95112e-02 -1.61565e+01  7.52513e+00
