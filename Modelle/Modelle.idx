@@ -1,4 +1,4 @@
-﻿MB_INST_IDX     234
+﻿MB_INST_IDX     236
 1   EINBAU_ANTRIEB_04                   EINBAU_ANTRIEB                     
 1   EINBAU_ANTRIEB_08                   EINBAU_ANTRIEB                     
 1   EINBAU_ANTRIEB_15                   EINBAU_ANTRIEB                     
@@ -231,6 +231,8 @@
 2   ZUSATZ_SPACER_M2X3                  ZUSATZ_SPACER                      
 2   ZUSATZ_SPACER_M2X5                  ZUSATZ_SPACER                      
 2   ZUSATZ_SPACER_M2X6                  ZUSATZ_SPACER                      
+2   ZUSATZ_SPACER_M2X7                  ZUSATZ_SPACER                      
 2   ZUSATZ_SPACER_M2X8                  ZUSATZ_SPACER                      
 2   ZUSATZ_SPACER_M3X5                  ZUSATZ_SPACER                      
-MB_INST_IDX     234
+2   ZUSATZ_SPACER_M3X7                  ZUSATZ_SPACER                      
+MB_INST_IDX     236
